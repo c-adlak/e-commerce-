@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* home page */
+.container-outer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-inner {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  width: 400px !important;
+
+  margin-bottom: 20px !important;
+  padding: 10px 10px !important;
+  margin: 10px !important;
+}
+.btns {
+  margin-top: 30px !important;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.container-highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0px;
+  font-family: "Poetsen One", sans-serif;
+}
+.container-highlights-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.big-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.poster-img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  align-items: center;
+}
+.poster-img img {
+  height: 100vh !important;
+}
+
+/* layout-> navbar */
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.navbar3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 7px;
+  padding-top: 10px !important;
+  padding: 5px;
+  background-color: rgb(244, 244, 244);
+}
+.navbar3 p {
+  font-size: 12px;
+}
+.nav-row {
+  position: sticky;
+  z-index: 5;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 15%;
+}
+.links {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+.nav-form {
+  display: flex;
+  background-color: rgb(224, 224, 224);
+  border-radius: 30px;
+}
+.nav-form:hover {
+  background-color: rgb(239, 239, 239);
+}
+.nav-form input {
+  color: black;
+  width: 125px;
+  background-color: rgba(224, 224, 224, 0);
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+}
+.input:focus {
+  outline: none !important;
+}
+.nav-form button {
+  border-radius: 50%;
+  background-color: rgba(224, 224, 224, 0.005);
+  border: none;
+  color: black;
+}
+
+.cart {
+  height: 100%;
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.video-container {
+  width: 100%;
+}
+.video-container video {
+}
+
+/* big cards */
+
+.bigcard-card {
+  width: 450px;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bigcard-content {
+  position: relative;
+  bottom: -405px;
+  left: 53px;
+}
+
+/* signin and signup */
+
+.form-container {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container-inner {
+  width: 500px;
+  height: 90%;
+  padding: 50px;
+  background-color: rgba(230, 230, 230, 0.304);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  line-height: 40px;
+}
+
+.signup-container {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.register-btn {
+  width: 100%;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.register-btn:hover {
+  background-color: rgb(218, 218, 218);
+  color: black;
+}
+
+/* men component */
+.shop-conatainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* checkout */
+.payment-method-container {
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4rem;
+}
+.radio-btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.radio-btns-container div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.payment-container {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: rem 0;
+}
